@@ -1,5 +1,1 @@
-# Integrantes:
-## Eddy Bucardo
-## Gabriel Narváez
-## Jorge Delgado
-## Steven Flores
+Este código linealiza la matriz por columnas, es decir, primero baja por las filas de cada columna, en lugar de recorrer toda una fila y luego pasar a la siguiente (que sería recorrer por filas).
