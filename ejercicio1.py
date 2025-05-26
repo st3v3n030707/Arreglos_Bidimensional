@@ -27,7 +27,7 @@ ventas = [
 
 # a. Venta total por todas las tiendas
 total_ventas = sum(sum(tienda) for tienda in ventas)
-print("a. Gran Total de Ventas de todas las tiendas:", total_ventas)
+print("a. Gran Total de Ventas de todas las tiendas: ", total_ventas)
 
 # b. Venta total por tienda
 print ("b.Total de Ventas por Tiendas: ")
@@ -42,7 +42,6 @@ print(f"c. Tienda con más ventas un lapso de 6 meses: ABSA {tienda_max}")
 # d. Tienda con menos ventas
 tienda_min = ventas_por_tienda.index(min(ventas_por_tienda)) + 1
 print(f"d. Tienda con menos ventas un lapso de 6 meses: ABSA {tienda_min}")
-
 # Explicación linea por linea:
 
 #ventas = [
